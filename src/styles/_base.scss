@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   margin: 0;
   padding: 0;
@@ -9,4 +13,15 @@ html {
 
 h1 {
   @include font-bold(4);
+}
+
+a {
+  @include font-bold;
+  text-decoration: $color-text-highlight-secondary underline;
+  color: $color-text-default;
+  &:hover,
+  &:focus{
+    color: $color-text-highlight-secondary;
+    text-decoration: dashed $color-blue;
+  }
 }

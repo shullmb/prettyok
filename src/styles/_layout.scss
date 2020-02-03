@@ -1,10 +1,30 @@
-.l-BackgroundArea {
-  max-width: $max-site-width;
-  min-width: $min-site-width;
-}
-
-.l-ContentArea {
-  max-width: $max-content-width;
-  margin: 0 auto;
-  padding: $gutter-width;
+.l{
+  &-BackgroundArea {
+    max-width: $max-site-width;
+    min-width: $min-site-width;
+  }
+  &-ContentArea {
+    max-width: $max-content-width;
+    width: 100%;
+    margin: 0 auto;
+    padding: $gutter-width;
+  }
+  &-Main {
+    flex: 1 1 auto;
+  }
+  &-Footer {
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-info {
+      @include font-default(.8);
+      color: darken($color-text-lowlight-secondary,33);
+      a {
+        @include font-default(.8);
+        color: darken($color-text-lowlight-secondary,33);
+        text-decoration: none;
+      }
+    }
+  }
 }

@@ -9,7 +9,7 @@ export const NavContainer: React.FC = () => {
   return (
     <ContentArea>
       <NavLink className="Nav-link" to={Routes.HOME}>
-        Home
+        /
       </NavLink>
       &nbsp;
       <NavLink
@@ -17,7 +17,7 @@ export const NavContainer: React.FC = () => {
         activeClassName={"is-active"}
         to={Routes.PROJECTS}
       >
-        Projects
+        /projects
       </NavLink>
     </ContentArea>
   );

@@ -3,6 +3,7 @@
     @include font-bold(.8);
     color: $color-text-default;
     text-decoration: none;
+    margin: 0 1em;
     &:hover {
       color: $color-text-lowlight-primary;
     }
