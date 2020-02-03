@@ -1,0 +1,15 @@
+@mixin _font-base($scale) {
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 1rem * $scale;
+  line-height: 1.05rem * $scale;
+}
+
+@mixin font-default($scale: 1) {
+  @include _font-base($scale);
+  font-weight: 400;
+}
+
+@mixin font-bold($scale: 1) {
+  @include _font-base($scale);
+  font-weight: 700;
+}

@@ -1,0 +1,12 @@
+html {
+  margin: 0;
+  padding: 0;
+  background-color: $color-black;
+  color: $color-text-default;
+
+  @include font-default;
+}
+
+h1 {
+  @include font-bold(4);
+}

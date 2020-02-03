@@ -1,0 +1,10 @@
+.l-BackgroundArea {
+  max-width: $max-site-width;
+  min-width: $min-site-width;
+}
+
+.l-ContentArea {
+  max-width: $max-content-width;
+  margin: 0 auto;
+  padding: $gutter-width;
+}

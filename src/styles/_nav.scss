@@ -1,0 +1,14 @@
+.Nav {
+  &-link {
+    @include font-bold(.8);
+    color: $color-text-default;
+    text-decoration: none;
+    &:hover {
+      color: $color-text-lowlight-primary;
+    }
+    &.is-active {
+      color: $color-text-highlight-primary;
+    }
+    
+  }
+}

@@ -1,0 +1,23 @@
+// colors
+$color-black: rgba(13, 14, 13, 1);
+$color-white: rgba(230, 235, 224, 1);
+$color-blue: rgba(92, 164, 169, 1);
+$color-red: rgba(237, 106, 90, 1);
+$color-yellow: rgba(244, 241, 187, 1);
+$color-grey: rgba(155, 193, 188, 1);
+
+$color-site-background: $color-black;
+$color-text-default: $color-white;
+$color-text-highlight-primary: $color-yellow;
+$color-text-highlight-secondary: $color-red;
+$color-text-lowlight-primary: $color-blue;
+$color-text-lowlight-secondary: $color-grey;
+
+
+
+// layout
+$max-site-width: 1920px;
+$min-site-width: 320px;
+$gutter-width: 1em;
+$max-content-width: 1080px;
+$min-content-width: calc(320px - (2 * $gutter-width));

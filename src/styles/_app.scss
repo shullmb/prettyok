@@ -1,0 +1,16 @@
+.App-heading {
+  line-height: 0rem;
+}
+
+.App-subheading {
+  span:nth-child(1n) {
+    color: $color-text-highlight-primary;
+  }
+  span:nth-child(2n) {
+    color: $color-text-highlight-secondary;
+  }
+  span:nth-child(3n) {
+    color: $color-text-lowlight-primary;
+  }
+
+}
